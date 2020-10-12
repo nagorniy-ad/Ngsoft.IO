@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Ngsoft.IO</id>
+    <version>1.0.0</version>
+    <title>Ngsoft.IO</title>
+    <authors>Aleksandr Nagorniy</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <repository type="git" url="https://github.com/nagorniy-ad/Ngsoft.IO.git" />
+    <icon>Ngsoft.IO.png</icon>
+    <description>Contains classes and utilities for IO operations</description>
+    <releaseNotes>First public release.</releaseNotes>
+    <copyright>Copyright © Aleksandr Nagorniy</copyright>
+    <tags>io storage</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Newtonsoft.Json" version="12.0.3" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Ngsoft.IO.png" />
+  </files>
+</package>

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Aleksandr Nagorniy</Authors>
+    <Company>Aleksandr Nagorniy</Company>
+    <Description>Contains classes and utilities for IO operations</Description>
+    <Copyright>Copyright © Aleksandr Nagorniy</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>
